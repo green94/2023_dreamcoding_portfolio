@@ -75,6 +75,11 @@ button:focus{
     align-items: center;
     padding: 1rem;
     z-index: 1;
+    transition: all ease 0.3s;
+}
+.header--dark{
+    background-color: var(--color-primary);
+    box-shadow: rgba(143, 143, 143, 0.24) 0px 3px 8px;
 }
 .header__logo{
     display: flex;
